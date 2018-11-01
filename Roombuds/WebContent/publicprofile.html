@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+            <title>Profile</title>
+ <style>
+html , body{
+   padding:0px;
+   margin:0px;
+   border: 8px solid white;
+    margin:auto;
+    width: auto!important;
+    overflow-x: hidden!importan;
+    overflow-y: hidden!importan;
+      background-color:#eaecef;
+      height:100%;
+}
+#profile{
+
+}
+#search ,#logout{
+     margin-left: 6%;
+     margin-right: 6%;
+     height: 30%;
+     background-color: white;
+     text-align: center;
+     padding: 2%;
+     border-radius: 8px;
+     font-size: 120%;
+     font-weight: bolder;
+    margin-bottom:2%;
+}
+#butt{
+
+  border-radius: 80px;
+  padding: 20px;
+  background-color: lightgreen;
+}
+
+#images{
+  margin-top:
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  padding: 4%;
+  margin-top: 8%;
+  margin-bottom: 40%;
+  width:100%;
+  
+}
+#icon{
+  border-radius: 40px;
+  margin-bottom: 2%;
+}
+@media only screen and (max-width: 375px) {
+
+
+    }
+ @media only screen and (max-width: 414px) {
+
+
+    }
+ </style>
+    </head>
+
+    <body>
+<script>
+
+ function out()
+ {
+
+
+ var f = document.getElementById("loader");
+ var s = document.getElementById("butt");
+  document.getElementById("butt").addEventListener("click", function(){
+  f.click();});
+   }
+</script>
+   <div id="images">
+ <div class="pics">
+  <input type="file" id="loader" hidden="hidden"/>
+  <button onclick="out()"id="butt">+</button>
+</div>
+<div class="pics">
+ <input type="file" id="loader" hidden="hidden"/>
+ <button onclick="out()"id="butt">+</button>
+</div>
+<div class="pics">
+ <input type="file" id="loader" hidden="hidden"/>
+ <button onclick="out()"id="butt">+</button>
+</div>
+<div class="pics">
+ <input type="file" id="loader" hidden="hidden"/>
+ <button onclick="out()"id="butt">+</button>
+</div>
+<div class="pics">
+ <input type="file" id="loader" hidden="hidden"/>
+ <button onclick="out()"id="butt">+</button>
+</div>
+<div class="pics">
+ <input type="file" id="loader" hidden="hidden"/>
+ <button onclick="out()"id="butt">+</button>
+</div>
+   </div>
+<div id="profile">
+  <div id="search" >
+       <a href="search.html" >SEARCH</a>
+  </div>
+  <div id="logout" onclick="out()">
+        <a href="Logout.jsp" >LOGOUT</a>
+  </div>
+</div>
+
+    </body>
+</html>

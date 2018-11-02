@@ -22,9 +22,9 @@ import java.sql.Statement;
 public class Profile extends HttpServlet { 
 	private static final long serialVersionUID = 1L;
 	 String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";  
-	String DB_URL = "jdbc:mysql://mysql3000.mochahost.com:3306/iorvenda_clients?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
-	 String USER = "iorvenda_i";
-	 String PASS = "!@#123ASdfghj"; 
+	String DB_URL = "jdbc:mysql://servername/databasename?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+	 String USER = "username";
+	 String PASS = "password"; 
 	 Connection conn; 
 	Statement stmt;
 
